@@ -1,0 +1,131 @@
+.aboutSection {
+  position: relative;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.bioCard {
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cardHeading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.bioParagraph {
+  color: var(--text-secondary);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.factsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.factItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.factIcon {
+  color: var(--accent-primary);
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.factLabel {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.factValue {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.pillarsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.pillarCard {
+  padding: 1.6rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.pillarIconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  flex-shrink: 0;
+}
+
+.highlightIconPrimary {
+  color: var(--accent-primary);
+}
+
+.highlightIconCyan {
+  color: var(--accent-cyan);
+}
+
+.highlightIconEmerald {
+  color: var(--accent-emerald);
+}
+
+.pillarContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.pillarTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.pillarDesc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+  .factsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+

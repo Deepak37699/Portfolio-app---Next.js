@@ -1,0 +1,410 @@
+{
+  "personal": {
+    "name": "Deepak Kumar Yadav",
+    "title": "Full Stack Developer | Python / FastAPI",
+    "tagline": "Full Stack Developer and IT Support Engineer specializing in dynamic, database-driven web applications using Python & FastAPI, authenticated account management systems, and reliable, user-oriented web solutions.",
+    "bio": [
+      "I am a Full Stack Developer and IT Support Engineer with extensive experience developing dynamic, database-driven web applications using Python and FastAPI, implementing authenticated account-management systems, and delivering internal web portals, digital receipts, and administrative forms.",
+      "Skilled in web development, SQL databases (PostgreSQL, MySQL, SQLite), deployment, and technical troubleshooting. Also experienced in computer science instruction, technical mentoring, and academic administration, dedicated to delivering reliable, user-oriented web solutions."
+    ],
+    "location": "Dhanushadham-7, Dhanusha, Nepal",
+    "status": "Available for Software Development Roles",
+    "email": "deepak.yadav37699@gmail.com",
+    "phone": "+977 9843893402 / 9812115666",
+    "avatar": "/images/deepak-avatar.png",
+    "resumeUrl": "https://deepakyadav.info.np",
+    "yearsOfExperience": 5
+  },
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Deepak37699",
+      "username": "Deepak37699",
+      "icon": "github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/deepak-yadav-16891114a",
+      "username": "deepak-yadav",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:deepak.yadav37699@gmail.com",
+      "username": "deepak.yadav37699",
+      "icon": "mail"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "m1",
+      "label": "Experience",
+      "value": "5+ Years",
+      "description": "Full stack web development, IT support, and enterprise system operations"
+    },
+    {
+      "id": "m2",
+      "label": "Core Stack",
+      "value": "Python & FastAPI",
+      "description": "Dynamic database-driven applications and authenticated internal portals"
+    },
+    {
+      "id": "m3",
+      "label": "Organizations",
+      "value": "4+ Roles",
+      "description": "Spanning construction enterprise, finance consulting, and academic administration"
+    },
+    {
+      "id": "m4",
+      "label": "Students Mentored",
+      "value": "200+ Students",
+      "description": "Practical computer lab training, programming fundamentals, and IT instruction"
+    }
+  ],
+  "skillCategories": [
+    {
+      "id": "backend",
+      "title": "Backend & Python",
+      "description": "FastAPI, Python, Java, J2EE, Node.js, and C programming"
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend & UI",
+      "description": "Responsive web design, JavaScript, React, Bootstrap, and HTML/CSS"
+    },
+    {
+      "id": "database",
+      "title": "Databases & SQL",
+      "description": "PostgreSQL, MySQL, SQLite, and database support"
+    },
+    {
+      "id": "systems",
+      "title": "Deployment & IT Support",
+      "description": "Hosting, troubleshooting, Git, GitHub, system maintenance, and Hadoop"
+    }
+  ],
+  "skills": [
+    {
+      "id": "s1",
+      "name": "Python",
+      "level": 95,
+      "category": "backend",
+      "featured": true,
+      "years": 5
+    },
+    {
+      "id": "s2",
+      "name": "FastAPI",
+      "level": 92,
+      "category": "backend",
+      "featured": true,
+      "years": 4
+    },
+    {
+      "id": "s3",
+      "name": "PostgreSQL & SQL",
+      "level": 88,
+      "category": "database",
+      "featured": true,
+      "years": 4
+    },
+    {
+      "id": "s4",
+      "name": "JavaScript & React",
+      "level": 85,
+      "category": "frontend",
+      "featured": true,
+      "years": 4
+    },
+    {
+      "id": "s5",
+      "name": "Responsive Web Design",
+      "level": 92,
+      "category": "frontend",
+      "featured": true,
+      "years": 5
+    },
+    {
+      "id": "s6",
+      "name": "MySQL & SQLite",
+      "level": 88,
+      "category": "database",
+      "featured": false,
+      "years": 4
+    },
+    {
+      "id": "s7",
+      "name": "Java & J2EE / Advanced Java",
+      "level": 82,
+      "category": "backend",
+      "featured": false,
+      "years": 3
+    },
+    {
+      "id": "s8",
+      "name": "Node.js",
+      "level": 80,
+      "category": "backend",
+      "featured": false,
+      "years": 3
+    },
+    {
+      "id": "s9",
+      "name": "Bootstrap",
+      "level": 90,
+      "category": "frontend",
+      "featured": true,
+      "years": 5
+    },
+    {
+      "id": "s10",
+      "name": "Website Hosting & Deployment",
+      "level": 86,
+      "category": "systems",
+      "featured": true,
+      "years": 4
+    },
+    {
+      "id": "s11",
+      "name": "Git & GitHub",
+      "level": 89,
+      "category": "systems",
+      "featured": true,
+      "years": 5
+    },
+    {
+      "id": "s12",
+      "name": "IT Hardware & Software Troubleshooting",
+      "level": 94,
+      "category": "systems",
+      "featured": true,
+      "years": 5
+    },
+    {
+      "id": "s13",
+      "name": "C Programming",
+      "level": 84,
+      "category": "backend",
+      "featured": false,
+      "years": 4
+    },
+    {
+      "id": "s14",
+      "name": "Big Data Hadoop Fundamentals",
+      "level": 75,
+      "category": "systems",
+      "featured": false,
+      "years": 2
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Red Diamond Enterprise Operations Portal",
+      "tagline": "Dynamic FastAPI web application streamlining operations for construction enterprise",
+      "description": "Designed and deployed a dynamic web application using Python FastAPI framework to manage daily company workflows, role-based user authentication, digital receipt issuance, and administrative operations.",
+      "fullDescription": "Engineered for Red Diamond Construction Pvt. Ltd. to digitize enterprise operations. Features a custom role-based account-management system that safeguards organizational data, automated customized digital receipt generation, and administrative form submission accessible securely through an internal web portal.",
+      "category": "Full-Stack",
+      "featured": true,
+      "tags": ["Python", "FastAPI", "PostgreSQL", "Role-Based Auth", "Web Portal", "Digital Receipts"],
+      "liveUrl": "https://deepakyadav.info.np",
+      "githubUrl": "https://github.com/Deepak37699",
+      "metrics": ["100% digitized receipt workflow", "Role-based access control protecting company data", "Streamlined daily operations"],
+      "highlights": [
+        "Designed and deployed dynamic web application using Python FastAPI framework",
+        "Built a role-based account-management system with user authentication to protect organizational data",
+        "Developed customized digital receipts and administrative forms accessible via internal web portal",
+        "Provided Tier 1 and Tier 2 technical support across office workstations"
+      ],
+      "image": "/images/projects/ecommerce-gateway.png",
+      "architecture": "Backend: Python FastAPI | Database: PostgreSQL & SQLite | Security: Role-Based RBAC | UI: Responsive Web Design"
+    },
+    {
+      "id": "p2",
+      "title": "Banking & Financial Client Web Portals",
+      "tagline": "Responsive multi-client web layouts for banking, finance, insurance, and gaming",
+      "description": "Designed and developed tailored responsive website layouts for clients across banking, finance, insurance, and gaming sectors at Thakur International & Investment.",
+      "fullDescription": "Crafted multi-device responsive web solutions focusing on cross-browser accessibility, intuitive user flows, and technical content integration. Conducted market research to tailor visual hierarchy and interactive forms to sector requirements.",
+      "category": "Frontend & UI",
+      "featured": true,
+      "tags": ["JavaScript", "Bootstrap", "Responsive Design", "UI/UX", "Website Hosting"],
+      "liveUrl": "https://deepakyadav.info.np",
+      "githubUrl": "https://github.com/Deepak37699",
+      "metrics": ["Deployed across banking & finance sectors", "Fully responsive across mobile and desktop", "Optimized layout loading performance"],
+      "highlights": [
+        "Designed responsive website layouts for clients in banking, finance, insurance, and gaming",
+        "Created technical and promotional web content and supported market research",
+        "Delivered clean, cross-browser compliant frontend code and website hosting"
+      ],
+      "image": "/images/projects/cloud-canvas.png",
+      "architecture": "Frontend: JavaScript, Bootstrap, HTML5/CSS3 | Deployment: Website Hosting & Domain Management"
+    },
+    {
+      "id": "p3",
+      "title": "Academic Lab & Coding Learning Platform",
+      "tagline": "Computer science instructional management and hands-on coding lab portal",
+      "description": "Educational curriculum platform and practical lab coordination tool utilized for teaching advanced computer science concepts and evaluating hands-on coding exercises.",
+      "fullDescription": "Developed and utilized to support students at Bal Awasiya Vidhyalaya and Advance Academy. Facilitates programming lab sessions, tracks student project milestones, and delivers practical instruction in Python, C, and IT fundamentals.",
+      "category": "Full-Stack",
+      "featured": true,
+      "tags": ["Python", "Computer Science Lab", "C", "Curriculum Management", "IT Support"],
+      "liveUrl": "https://deepakyadav.info.np",
+      "githubUrl": "https://github.com/Deepak37699",
+      "metrics": ["Mentored 200+ students", "Practical lab exercises in Python & C", "Enhanced hands-on coding outcomes"],
+      "highlights": [
+        "Integrated practical computer-lab sessions and hands-on coding exercises",
+        "Mentored students through hardware and software troubleshooting fundamentals",
+        "Coordinated student evaluations and curriculum standards"
+      ],
+      "image": "/images/projects/ai-workflow-engine.png",
+      "architecture": "Platform: Python, Web Tools | Environment: Practical Lab Infrastructure | Database: SQLite"
+    },
+    {
+      "id": "p4",
+      "title": "Role-Based Account Authentication System",
+      "tagline": "Secure user access control and organizational data protection engine",
+      "description": "Robust authentication and authorization system providing session management, role enforcement, and secure credential handling for web applications.",
+      "fullDescription": "Engineered to provide strict role separation (Admin, Staff, Operational users) across internal web applications. Implements password hashing, SQL query protection, and activity logging to protect organizational assets.",
+      "category": "Backend & Systems",
+      "featured": true,
+      "tags": ["Python", "FastAPI", "PostgreSQL", "Authentication", "Security"],
+      "liveUrl": "https://deepakyadav.info.np",
+      "githubUrl": "https://github.com/Deepak37699",
+      "metrics": ["Zero unauthorized data breaches", "Granular role-based permissions", "Sub-25ms authentication verification"],
+      "highlights": [
+        "Built role-based account-management system with user authentication",
+        "Protected organizational data with SQL parameterization and encryption",
+        "Diagnosed and resolved software and database issues across workstations"
+      ],
+      "image": "/images/projects/task-orchestrator.png",
+      "architecture": "Backend: FastAPI + Python | Database: PostgreSQL | Security: Role-Based Access Control (RBAC)"
+    }
+  ],
+  "experience": [
+    {
+      "id": "e1",
+      "role": "Principal & Computer Science Teacher",
+      "company": "Bal Awasiya Vidhyalaya",
+      "companyUrl": "https://deepakyadav.info.np",
+      "location": "Nepal",
+      "period": "Aug 2025 - Present",
+      "type": "Full-Time",
+      "isCurrent": true,
+      "achievements": [
+        "Oversee daily administrative, academic, and operational functions while fostering a positive learning environment.",
+        "Lead and mentor academic staff, implement curriculum standards, and coordinate student performance and parent relations.",
+        "Teach advanced Computer Science topics and integrate practical computer-lab sessions into instruction."
+      ],
+      "technologies": ["Academic Administration", "Computer Science", "Python", "Lab Instruction", "Mentoring"]
+    },
+    {
+      "id": "e2",
+      "role": "Computer Science Teacher",
+      "company": "Advance Academy",
+      "companyUrl": "https://deepakyadav.info.np",
+      "location": "Nepal",
+      "period": "Apr 2025 - Aug 2025",
+      "type": "Full-Time",
+      "isCurrent": false,
+      "achievements": [
+        "Taught computer science concepts, programming fundamentals, and IT fundamentals.",
+        "Designed curriculum and practical lab exercises, conducted student assessments, and mentored hands-on coding projects.",
+        "Supported students with basic computer hardware and software troubleshooting."
+      ],
+      "technologies": ["Programming Fundamentals", "C", "Python", "IT Fundamentals", "Hardware Troubleshooting"]
+    },
+    {
+      "id": "e3",
+      "role": "IT Support Engineer / Developer",
+      "company": "Red Diamond Construction Pvt. Ltd.",
+      "companyUrl": "https://deepakyadav.info.np",
+      "location": "Nepal",
+      "period": "Aug 2021 - Present",
+      "type": "Full-Time",
+      "isCurrent": true,
+      "achievements": [
+        "Designed and deployed a dynamic web application using the Python FastAPI framework to streamline company operations.",
+        "Built a role-based account-management system with user authentication to help protect organizational data.",
+        "Developed customized digital receipts and administrative forms and made them accessible through an internal web portal.",
+        "Diagnosed and resolved software, database, and hardware issues across office workstations, providing Tier 1 and Tier 2 technical support."
+      ],
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "SQLite", "System Maintenance", "Tier 1/2 Support", "Digital Receipts"]
+    },
+    {
+      "id": "e4",
+      "role": "Web Designer & Content Developer",
+      "company": "Thakur International & Investment Pvt. Ltd.",
+      "companyUrl": "https://deepakyadav.info.np",
+      "location": "Nepal",
+      "period": "Jun 2019 - Sep 2019",
+      "type": "Full-Time",
+      "isCurrent": false,
+      "achievements": [
+        "Designed responsive website layouts for clients in banking, finance, insurance, and gaming.",
+        "Created technical and promotional web content and supported market research and business expansion activities."
+      ],
+      "technologies": ["Responsive Web Design", "Bootstrap", "JavaScript", "Website Hosting", "Content Development"]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "degree": "Bachelor of Technology (B. Tech)",
+      "institution": "JB Institute of Technology, Uttarakhand Technical University, India",
+      "period": "2014 - 2018",
+      "gpa": "58.3%",
+      "highlights": [
+        "Specialized in Computer Science & Engineering core curriculum",
+        "Advanced Java, J2EE, Database Management Systems, and Software Engineering",
+        "Active participation in campus technical competitions and cultural events"
+      ]
+    },
+    {
+      "id": "edu2",
+      "degree": "Intermediate (+2 Science)",
+      "institution": "National Academy Secondary School, NEB, Nepal",
+      "period": "2013 - 2014",
+      "gpa": "50.2%",
+      "highlights": [
+        "Science faculty with focus on Mathematics, Physics, and Chemistry",
+        "Foundational quantitative problem-solving and computer science basics"
+      ]
+    },
+    {
+      "id": "edu3",
+      "degree": "School Leaving Certificate (SLC)",
+      "institution": "Shree Bhanu Higher Secondary School, Nepal",
+      "period": "2013",
+      "gpa": "51.75%",
+      "highlights": [
+        "Completed School Leaving Certificate with distinction in science and mathematics"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "c1",
+      "name": "Advanced Java / J2EE Certification",
+      "issuer": "Itenic, Noida, India",
+      "issueDate": "Apr 2018",
+      "credentialUrl": "https://deepakyadav.info.np",
+      "badge": "J2EE"
+    },
+    {
+      "id": "c2",
+      "name": "Big Data Hadoop Fundamentals",
+      "issuer": "Itenic, Noida, India",
+      "issueDate": "Apr 2018",
+      "credentialUrl": "https://deepakyadav.info.np",
+      "badge": "HADOOP"
+    },
+    {
+      "id": "c3",
+      "name": "Web Designing & Hosting",
+      "issuer": "Aptech Computer Education, Lalitpur, Nepal",
+      "issueDate": "Jul 2016",
+      "credentialUrl": "https://deepakyadav.info.np",
+      "badge": "APTECH"
+    }
+  ]
+}
