@@ -45,7 +45,7 @@ export default function RootLayout({
               (function() {
                 try {
                   const storedTheme = localStorage.getItem('portfolio-theme');
-                  const theme = storedTheme || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+                  const theme = storedTheme || 'dark';
                   document.documentElement.setAttribute('data-theme', theme);
                 } catch (e) {}
               })();
