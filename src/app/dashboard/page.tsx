@@ -461,6 +461,7 @@ export default function DashboardPage() {
                 <table className={styles.dataTable}>
                   <thead>
                     <tr>
+                      <th>Image</th>
                       <th>Project Title</th>
                       <th>Category</th>
                       <th>Featured</th>
@@ -471,6 +472,20 @@ export default function DashboardPage() {
                   <tbody>
                     {data.projects.map((proj) => (
                       <tr key={proj.id}>
+                        <td>
+                          {proj.image ? (
+                            <div
+                              className={styles.projectThumbnail}
+                              role="img"
+                              aria-label={`${proj.title} project image`}
+                              style={{
+                                backgroundImage: `url(${JSON.stringify(proj.image)})`,
+                              }}
+                            />
+                          ) : (
+                            <span className={styles.subtext}>No image</span>
+                          )}
+                        </td>
                         <td className={styles.titleCell}>
                           <strong>{proj.title}</strong>
                           <span className={styles.subtext}>{proj.tagline}</span>
@@ -913,6 +928,35 @@ export default function DashboardPage() {
                     <option value="Frontend & UI">Frontend & UI</option>
                   </select>
                 </div>
+              </div>
+
+              <div className="form-group">
+                <label className="form-label" htmlFor="project-image">
+                  Project Image
+                </label>
+                <input
+                  id="project-image"
+                  type="text"
+                  value={editingProject.image || ""}
+                  onChange={(e) =>
+                    setEditingProject({ ...editingProject, image: e.target.value })
+                  }
+                  className="input-field"
+                  placeholder="/images/projects/my-project.png"
+                />
+                <span className={styles.subtext}>
+                  Use an image path from the public folder or an image URL.
+                </span>
+                {editingProject.image && (
+                  <div
+                    className={styles.projectImagePreview}
+                    role="img"
+                    aria-label={`${editingProject.title || "Project"} image preview`}
+                    style={{
+                      backgroundImage: `url(${JSON.stringify(editingProject.image)})`,
+                    }}
+                  />
+                )}
               </div>
 
               <div className="form-group">

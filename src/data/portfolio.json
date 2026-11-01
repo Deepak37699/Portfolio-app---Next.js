@@ -103,9 +103,9 @@
     {
       "id": "s3",
       "name": "PostgreSQL & SQL",
-      "level": 88,
+      "level": 65,
       "category": "database",
-      "featured": true,
+      "featured": false,
       "years": 4
     },
     {
@@ -113,7 +113,7 @@
       "name": "JavaScript & React",
       "level": 85,
       "category": "frontend",
-      "featured": true,
+      "featured": false,
       "years": 4
     },
     {
@@ -121,7 +121,7 @@
       "name": "Responsive Web Design",
       "level": 92,
       "category": "frontend",
-      "featured": true,
+      "featured": false,
       "years": 5
     },
     {
@@ -143,7 +143,7 @@
     {
       "id": "s8",
       "name": "Node.js",
-      "level": 80,
+      "level": 70,
       "category": "backend",
       "featured": false,
       "years": 3

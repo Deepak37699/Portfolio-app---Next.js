@@ -281,6 +281,27 @@
   background: var(--bg-surface-hover);
 }
 
+.projectThumbnail {
+  width: 72px;
+  aspect-ratio: 16 / 10;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-tertiary);
+  background-position: center;
+  background-size: cover;
+}
+
+.projectImagePreview {
+  width: min(100%, 360px);
+  aspect-ratio: 16 / 9;
+  margin-top: 0.75rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-tertiary);
+  background-position: center;
+  background-size: cover;
+}
+
 .titleCell {
   display: flex;
   flex-direction: column;
