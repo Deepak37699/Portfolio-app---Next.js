@@ -9,7 +9,7 @@ import {
   Search,
   ExternalLink,
   Maximize2,
-  Sparkles,
+  BadgeCheck,
   ArrowRight,
   SlidersHorizontal,
 } from "lucide-react";
@@ -142,7 +142,7 @@ export default function Projects({ projects }: ProjectsProps) {
 
                   {project.featured && (
                     <div className={styles.featuredBadge}>
-                      <Sparkles size={12} />
+                      <BadgeCheck size={12} />
                       <span>Featured</span>
                     </div>
                   )}

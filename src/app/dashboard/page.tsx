@@ -25,7 +25,7 @@ import {
   ArrowLeft,
   AlertTriangle,
   X,
-  Sparkles,
+  Info,
 } from "lucide-react";
 
 export default function DashboardPage() {
@@ -431,7 +431,7 @@ export default function DashboardPage() {
 
           <div className={styles.sidebarFooter}>
             <div className={styles.tipBox}>
-              <Sparkles size={14} className={styles.tipIcon} />
+              <Info size={14} className={styles.tipIcon} />
               <p>
                 All edits directly persist to <code>src/data/portfolio.json</code> and instantly update the live website.
               </p>

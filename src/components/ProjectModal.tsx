@@ -9,7 +9,7 @@ import {
   ExternalLink,
   CheckCircle,
   Cpu,
-  Sparkles,
+  BadgeCheck,
 } from "lucide-react";
 import { GithubIcon } from "@/components/Icons";
 
@@ -51,7 +51,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
             <span className="badge badge-accent">{project.category}</span>
             {project.featured && (
               <span className="badge badge-cyan">
-                <Sparkles size={12} />
+                <BadgeCheck size={12} />
                 Featured Project
               </span>
             )}

@@ -9,7 +9,7 @@ import {
   Check,
   Download,
   FileCode2,
-  Sparkles,
+  Info,
 } from "lucide-react";
 
 interface JsonViewerModalProps {
@@ -165,7 +165,7 @@ export default function JsonViewerModal({
         {/* Footer info tip */}
         <div className={styles.modalFooter}>
           <div className={styles.infoBadge}>
-            <Sparkles size={14} className={styles.infoIcon} />
+            <Info size={14} className={styles.infoIcon} />
             <span>
               Tip: You can customize any project or skill without touching UI code via the{" "}
               <strong>/dashboard</strong> page.

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import styles from "./Skills.module.css";
 import { SkillCategory, SkillItem } from "@/types/portfolio";
-import { Sparkles } from "lucide-react";
+import { BadgeCheck } from "lucide-react";
 
 interface SkillsProps {
   categories: SkillCategory[];
@@ -66,7 +66,7 @@ export default function Skills({ categories, skills }: SkillsProps) {
                   <span className={styles.skillName}>{skill.name}</span>
                   {skill.featured && (
                     <span className="badge badge-accent" title="Primary core strength">
-                      <Sparkles size={11} />
+                      <BadgeCheck size={11} />
                       Core
                     </span>
                   )}

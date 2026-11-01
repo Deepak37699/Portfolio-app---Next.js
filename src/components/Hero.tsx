@@ -7,7 +7,7 @@ import { PersonalInfo, MetricItem, SocialLink } from "@/types/portfolio";
 import {
   ArrowRight,
   Mail,
-  Sparkles,
+  Cloud,
 } from "lucide-react";
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/Icons";
 
@@ -105,7 +105,7 @@ export default function Hero({
 
             {/* Floating Info Badges */}
             <div className={`${styles.floatingBadge} ${styles.badgeTopLeft}`}>
-              <Sparkles size={16} className={styles.badgeIconPrimary} />
+              <Cloud size={16} className={styles.badgeIconPrimary} />
               <span>Full-Stack & Cloud Architecture</span>
             </div>
 
