@@ -17,7 +17,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Deepak Kumar Yadav | Full Stack Developer | Python / FastAPI",
   description: "Full Stack Developer and IT Support Engineer specializing in dynamic, database-driven web applications using Python & FastAPI, authenticated account management systems, and reliable web solutions.",
-  keywords: ["Deepak Kumar Yadav", "Full Stack Developer", "Python", "FastAPI", "PostgreSQL", "IT Support Engineer", "Nepal"],
+  keywords: ["Deepak Yadav","Deepak Kumar Yadav", "Full Stack Developer", "Python", "FastAPI", "PostgreSQL", "IT Support Engineer", "Nepal"],
   authors: [{ name: "Deepak Kumar Yadav" }],
   openGraph: {
     title: "Deepak Kumar Yadav | Full Stack Developer | Python / FastAPI",
