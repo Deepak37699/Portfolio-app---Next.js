@@ -13,14 +13,12 @@ import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Toast, { ToastMessage } from "@/components/Toast";
-import JsonViewerModal from "@/components/JsonViewerModal";
 
 export default function Home() {
   const [data, setData] = useState<PortfolioData>(
     initialPortfolioData as PortfolioData
   );
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
-  const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
 
   // Refresh data from /api/portfolio on mount to catch any runtime updates
   useEffect(() => {
@@ -61,7 +59,6 @@ export default function Home() {
           personal={data.personal}
           metrics={data.metrics}
           socials={data.socials}
-          onOpenJsonModal={() => setIsJsonModalOpen(true)}
         />
 
         <About personal={data.personal} />
@@ -92,12 +89,6 @@ export default function Home() {
 
       {/* Global Interactive Toasts */}
       <Toast toasts={toasts} onDismiss={removeToast} />
-      <JsonViewerModal
-        data={data}
-        isOpen={isJsonModalOpen}
-        onClose={() => setIsJsonModalOpen(false)}
-        onNotify={addToast}
-      />
     </>
   );
 }

@@ -8,7 +8,6 @@ import {
   ArrowRight,
   Mail,
   Sparkles,
-  Terminal,
 } from "lucide-react";
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/Icons";
 
@@ -16,14 +15,12 @@ interface HeroProps {
   personal: PersonalInfo;
   metrics: MetricItem[];
   socials: SocialLink[];
-  onOpenJsonModal: () => void;
 }
 
 export default function Hero({
   personal,
   metrics,
   socials,
-  onOpenJsonModal,
 }: HeroProps) {
   const getSocialIcon = (platform: string) => {
     switch (platform.toLowerCase()) {
@@ -70,14 +67,6 @@ export default function Hero({
             <a href="#contact" className="btn-secondary">
               <span>Get In Touch</span>
             </a>
-            <button
-              onClick={onOpenJsonModal}
-              className={styles.jsonPillBtn}
-              title="Explore the JSON schema behind this app"
-            >
-              <Terminal size={16} />
-              <span>Data via JSON</span>
-            </button>
           </div>
 
           {/* Social Links */}
