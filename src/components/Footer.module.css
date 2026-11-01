@@ -92,13 +92,14 @@
 .copyrightRow {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border-subtle);
   font-size: 0.82rem;
   color: var(--text-muted);
   flex-wrap: wrap;
   gap: 0.8rem;
+  text-align: center;
 }
 
 .copyrightRow code {

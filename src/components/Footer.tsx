@@ -44,11 +44,7 @@ export default function Footer({ developerName }: FooterProps) {
 
         <div className={styles.copyrightRow}>
           <p>
-            © 2026 {developerName}. All data loaded dynamically from{" "}
-            <code>portfolio.json</code>.
-          </p>
-          <p className={styles.techNote}>
-            Built with Next.js (App Router) & bespoke Vanilla CSS.
+            © 2026 {developerName}.
           </p>
         </div>
       </div>
