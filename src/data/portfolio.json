@@ -231,36 +231,6 @@
       "architecture": "Backend: Python FastAPI | Database: PostgreSQL & SQLite | Security: Role-Based RBAC | UI: Responsive Web Design"
     },
     {
-      "id": "p2",
-      "title": "Banking & Financial Client Web Portals",
-      "tagline": "Responsive multi-client web layouts for banking, finance, insurance, and gaming",
-      "description": "Designed and developed tailored responsive website layouts for clients across banking, finance, insurance, and gaming sectors at Thakur International & Investment.",
-      "fullDescription": "Crafted multi-device responsive web solutions focusing on cross-browser accessibility, intuitive user flows, and technical content integration. Conducted market research to tailor visual hierarchy and interactive forms to sector requirements.",
-      "category": "Frontend & UI",
-      "featured": true,
-      "tags": [
-        "JavaScript",
-        "Bootstrap",
-        "Responsive Design",
-        "UI/UX",
-        "Website Hosting"
-      ],
-      "liveUrl": "https://deepakyadav.info.np",
-      "githubUrl": "https://github.com/Deepak37699",
-      "metrics": [
-        "Deployed across banking & finance sectors",
-        "Fully responsive across mobile and desktop",
-        "Optimized layout loading performance"
-      ],
-      "highlights": [
-        "Designed responsive website layouts for clients in banking, finance, insurance, and gaming",
-        "Created technical and promotional web content and supported market research",
-        "Delivered clean, cross-browser compliant frontend code and website hosting"
-      ],
-      "image": "/images/projects/cloud-canvas.png",
-      "architecture": "Frontend: JavaScript, Bootstrap, HTML5/CSS3 | Deployment: Website Hosting & Domain Management"
-    },
-    {
       "id": "p3",
       "title": "Academic Lab & Coding Learning Platform",
       "tagline": "Computer science instructional management and hands-on coding lab portal",
@@ -289,36 +259,6 @@
       ],
       "image": "/images/projects/ai-workflow-engine.png",
       "architecture": "Platform: Python, Web Tools | Environment: Practical Lab Infrastructure | Database: SQLite"
-    },
-    {
-      "id": "p4",
-      "title": "Role-Based Account Authentication System",
-      "tagline": "Secure user access control and organizational data protection engine",
-      "description": "Robust authentication and authorization system providing session management, role enforcement, and secure credential handling for web applications.",
-      "fullDescription": "Engineered to provide strict role separation (Admin, Staff, Operational users) across internal web applications. Implements password hashing, SQL query protection, and activity logging to protect organizational assets.",
-      "category": "Backend & Systems",
-      "featured": true,
-      "tags": [
-        "Python",
-        "FastAPI",
-        "PostgreSQL",
-        "Authentication",
-        "Security"
-      ],
-      "liveUrl": "https://deepakyadav.info.np",
-      "githubUrl": "https://github.com/Deepak37699",
-      "metrics": [
-        "Zero unauthorized data breaches",
-        "Granular role-based permissions",
-        "Sub-25ms authentication verification"
-      ],
-      "highlights": [
-        "Built role-based account-management system with user authentication",
-        "Protected organizational data with SQL parameterization and encryption",
-        "Diagnosed and resolved software and database issues across workstations"
-      ],
-      "image": "/images/projects/task-orchestrator.png",
-      "architecture": "Backend: FastAPI + Python | Database: PostgreSQL | Security: Role-Based Access Control (RBAC)"
     }
   ],
   "experience": [
